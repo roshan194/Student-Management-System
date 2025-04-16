@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: left;
+}
+
+.search-section {
+    margin-bottom: 20px;
+}
+
+.search-section h2 {
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.search-container {
+    display: flex;
+    width: 100%;
+}
+
+#searchInput {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #ced4da;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+}
+
+#searchButton {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#searchButton:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.button-container button {
+    padding: 8px 16px;
+    background-color: #f8f9fa;
+    color: #212529;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.2s;
+}
+
+.button-container button:hover {
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+}
+
+#studentTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+#studentTable th {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+
+#studentTable td {
+    border: 1px solid #dee2e6;
+    padding: 12px;
+}
+
+#studentTable tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.student-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.student-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.passing {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.failed {
+    color: #dc3545;
+    font-weight: bold;
+}
