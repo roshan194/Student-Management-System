@@ -85,7 +85,7 @@ function displayByGender(studentArray) {
 // Create a table for gender-specific display (now matches main table exactly)
 function createGenderTable(studentArray) {
     const table = document.createElement('table');
-    table.className = 'student-table';
+    table.id = 'studentTable';
     
     const thead = document.createElement('thead');
     thead.innerHTML = `
